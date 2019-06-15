@@ -1,0 +1,50 @@
+.header-content {
+    padding: 30px 0;
+    text-align: center;
+}
+
+.main-content {
+    padding: 30px 0;
+    width: 100%;
+}
+
+.footer-content {
+    padding: 30px 0;
+    text-align: center;
+    width: 100%;
+}
+
+.header-content__title:hover {
+    background-color: red;
+    cursor: pointer;
+}
+
+.header-content__title:active {
+    background-color: yellow;
+}
+
+.header-content__title::after {
+    content: "";
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+}
+
+.header-content__title::before {
+    content: "";
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: rgba(255, 192, 203, 0.438);
+}
+
+.header-content__title:hover::before {
+    background-color: pink;
+}
+
+footer {
+    width: 100%;
+    background: linear-gradient(rgba(122,122,122, .9) 50%,
+     rgba(11,222,11, .7) 50%);
+}
